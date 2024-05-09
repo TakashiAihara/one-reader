@@ -1,7 +1,8 @@
 {
-  "name": "nestjs-nextjs-trpc",
-  "version": "1.0.0",
-  "description": "",
+  "name": "one-reader",
+  "version": "0.0.1",
+  "author": "TakashiAihara",
+  "license": "ISC",
   "main": "index.js",
   "scripts": {
     "dev": "pnpm run --parallel dev",
@@ -9,8 +10,5 @@
     "build:web": "pnpm --filter web build",
     "start:server": "pnpm --filter server start:prod",
     "start:web": "pnpm --filter web start"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
